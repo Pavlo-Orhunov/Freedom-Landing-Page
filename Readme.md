@@ -12,11 +12,13 @@
 - fullscreen block
 
 **_The result of the work can be viewed at the link:_** ➡️
-[Link to the layout Page](https://pavlo-orhunov.github.io/Home-Services/)
+[Link to the layout Page](https://pavlo-orhunov.github.io/Freedom-Landing-Page/)
 _(will open in the same window)_
 
 `Link to the video`
 <https://youtu.be/Nf_qjPWumxo>
+
+https://youtu.be/Nf_qjPWumxo
 
 <br>
 
