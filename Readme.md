@@ -18,8 +18,6 @@ _(will open in the same window)_
 `Link to the video`
 <https://youtu.be/Nf_qjPWumxo>
 
-https://youtu.be/Nf_qjPWumxo
-
 <br>
 
 **_Preview for desktop (1920px) layout version:_** ⬇️
