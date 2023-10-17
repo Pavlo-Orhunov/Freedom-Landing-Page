@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: > 0.3% and not dead
+*/
+
 /*======= Google Font =======*/
 @import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap");
 
@@ -21,8 +28,6 @@
 *,
 *:before,
 *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 :focus,
@@ -128,6 +133,7 @@ body {
   background-color: hsl(1, 80%, 34%);
 }
 .button:active {
+  -webkit-transform: scale(0.98);
   transform: scale(0.98);
 }
 
@@ -537,6 +543,7 @@ body {
   opacity: 0.3;
 }
 .social__item:active {
+  -webkit-transform: scale(0.85);
   transform: scale(0.85);
 }
 .social__link {
@@ -545,9 +552,12 @@ body {
 /* --- on-load animation ---- */
 .hero__title,
 .hero__button-wrapper {
+  -webkit-transform: translate(3rem, 3rem);
   transform: translate(3rem, 3rem);
   opacity: 0;
+  transition: opacity 0.8s, -webkit-transform 0.8s;
   transition: transform 0.8s, opacity 0.8s;
+  transition: transform 0.8s, opacity 0.8s, -webkit-transform 0.8s;
 }
 
 .loaded .hero__title {
@@ -560,18 +570,25 @@ body {
 
 .loaded .hero__title,
 .loaded .hero__button-wrapper {
+  -webkit-transform: translate(0, 0);
   transform: translate(0, 0);
   opacity: 1;
 }
 /* --- END OF on-load animation ---- */
 
 [data-animated] {
+  -webkit-transform: translate(2rem, 2rem);
   transform: translate(2rem, 2rem);
   opacity: 0;
+  transition: opacity 0.7s ease-in-out 0.3s,
+    -webkit-transform 0.7s ease-in-out 0.3s;
   transition: opacity 0.7s ease-in-out 0.3s, transform 0.7s ease-in-out 0.3s;
+  transition: opacity 0.7s ease-in-out 0.3s, transform 0.7s ease-in-out 0.3s,
+    -webkit-transform 0.7s ease-in-out 0.3s;
 }
 
 [data-animated].active {
+  -webkit-transform: translate(0, 0);
   transform: translate(0, 0);
   opacity: 1;
 }
