@@ -1,4 +1,4 @@
-# This landing page is designed on a basis of a template kindly provided by Evhen Andrikanych. <br>
+# This landing page is designed on a basis of a template kindly provided by Yevhen Andrikanych. <br>
 
 ## Lesson: "Simple responsive Landing Page from FIGMA to HTML CSS for beginners" <br>
 
